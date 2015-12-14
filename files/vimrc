@@ -1,0 +1,21 @@
+set background=light
+" set syntax=python
+set tabstop=4
+set shiftwidth=4
+"set foldmethod=indent
+"set textwidth=78
+set textwidth=130
+set expandtab 
+set encoding=utf-8
+
+filetype plugin on
+filetype indent on
+syntax on
+
+if &diff
+  " VIM is in diff mode
+  set diffopt+=iwhite
+  " Otherwise comments in SQL disappear
+  set background=dark
+endif
+

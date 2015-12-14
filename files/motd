@@ -1,0 +1,12 @@
+###################################################
+##                                               ##
+##  Welcome to the Grails Development Container  ##
+##                                               ##
+###################################################
+
+To begin developing:
+  su - grails_user
+
+To load Angular Web Uploader source from git 
+run the following as the node_user:
+  get_grailsrestfulapiservice.sh
